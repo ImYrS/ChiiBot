@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-01 11:56+0800\n"
+"POT-Creation-Date: 2025-04-01 19:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,40 +35,40 @@ msgstr ""
 msgid "❌ DELETE Topic"
 msgstr ""
 
-#: src/routers/admin.py:32
+#: src/routers/admin.py:30
 msgid "This command is only available in topics."
 msgstr ""
 
-#: src/routers/admin.py:48
+#: src/routers/admin.py:46
 #, python-brace-format
 msgid "This user is already {}."
 msgstr ""
 
-#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+#: src/routers/admin.py:47 src/routers/admin.py:59 src/routers/admin.py:67
 msgid "blocked"
 msgstr ""
 
-#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+#: src/routers/admin.py:47 src/routers/admin.py:59 src/routers/admin.py:67
 msgid "unblocked"
 msgstr ""
 
-#: src/routers/admin.py:60
+#: src/routers/admin.py:58
 #, python-brace-format
 msgid "User #u{user_id} is {status} now."
 msgstr ""
 
-#: src/routers/admin.py:68
+#: src/routers/admin.py:66
 #, python-brace-format
 msgid ""
 "You have been {} by admin.\n"
 "Your messages {} be processed by me."
 msgstr ""
 
-#: src/routers/admin.py:70
+#: src/routers/admin.py:68
 msgid "will not"
 msgstr ""
 
-#: src/routers/admin.py:70
+#: src/routers/admin.py:68
 msgid "will continue to"
 msgstr ""
 
@@ -95,23 +95,37 @@ msgid ""
 "id: {user_id}"
 msgstr ""
 
-#: src/routers/forward.py:134
+#: src/routers/forward.py:106
 msgid "You cannot forward messages to yourself."
 msgstr ""
 
-#: src/routers/forward.py:143
+#: src/routers/forward.py:115
 msgid "Failed to create topic."
 msgstr ""
 
-#: src/routers/forward.py:150
+#: src/routers/forward.py:123
+#, python-brace-format
+msgid ""
+"<b>User Info</b>\n"
+"\n"
+"<b>User ID:</b> <a href='tg://user?id={user_id}'>{user_id}</a>\n"
+"<b>Username:</b> <code>{username}</code>\n"
+"<b>Name:</b> <i>{full_name}</i>"
+msgstr ""
+
+#: src/routers/forward.py:129
+msgid "Not Set"
+msgstr ""
+
+#: src/routers/forward.py:138
 msgid "You can only send a maximum of 2 messages before the admin replies to you."
 msgstr ""
 
-#: src/routers/forward.py:167
+#: src/routers/forward.py:155
 msgid "This message type does not support forwarding."
 msgstr ""
 
-#: src/routers/forward.py:191
+#: src/routers/forward.py:179
 msgid ""
 "Great! <b>That 🕊 reaction means your message has been successfully "
 "forwarded to my admin.</b> So you can clearly know exactly if I'm working"
@@ -121,11 +135,25 @@ msgid ""
 "<blockquote>This notice won't be shown again.</blockquote>"
 msgstr ""
 
-#: src/routers/topic.py:31
+#: src/routers/setup.py:43
+msgid "Failed to setup, please check this in logs or try again later."
+msgstr ""
+
+#: src/routers/setup.py:51
+msgid ""
+"Setup completed!\n"
+"<code>/chii_setup</code> has been disabled."
+msgstr ""
+
+#: src/routers/topic.py:25
+msgid "Permission denied"
+msgstr ""
+
+#: src/routers/topic.py:28
 msgid "Deleting topic..."
 msgstr ""
 
-#: src/routers/topic.py:33
+#: src/routers/topic.py:30
 msgid "Failed to delete topic"
 msgstr ""
 

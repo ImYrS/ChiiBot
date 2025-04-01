@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-01 11:56+0800\n"
-"PO-Revision-Date: 2025-04-01 11:56+0800\n"
+"POT-Creation-Date: 2025-04-01 19:07+0800\n"
+"PO-Revision-Date: 2025-04-01 19:09+0800\n"
 "Last-Translator: \n"
 "Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
@@ -42,29 +42,29 @@ msgstr ""
 msgid "❌ DELETE Topic"
 msgstr "❌ 删除主题"
 
-#: src/routers/admin.py:32
+#: src/routers/admin.py:30
 msgid "This command is only available in topics."
 msgstr "此命令仅在话题中可用。"
 
-#: src/routers/admin.py:48
+#: src/routers/admin.py:46
 #, python-brace-format
 msgid "This user is already {}."
 msgstr "此用户已经处于{}状态。"
 
-#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+#: src/routers/admin.py:47 src/routers/admin.py:59 src/routers/admin.py:67
 msgid "blocked"
 msgstr "封禁"
 
-#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+#: src/routers/admin.py:47 src/routers/admin.py:59 src/routers/admin.py:67
 msgid "unblocked"
 msgstr "解封"
 
-#: src/routers/admin.py:60
+#: src/routers/admin.py:58
 #, python-brace-format
 msgid "User #u{user_id} is {status} now."
 msgstr "用户 #u{user_id} 现在已{status}。"
 
-#: src/routers/admin.py:68
+#: src/routers/admin.py:66
 #, python-brace-format
 msgid ""
 "You have been {} by admin.\n"
@@ -73,11 +73,11 @@ msgstr ""
 "你已经被管理员{}。\n"
 "你的消息{}被我转发处理。"
 
-#: src/routers/admin.py:70
+#: src/routers/admin.py:68
 msgid "will not"
 msgstr "将不会"
 
-#: src/routers/admin.py:70
+#: src/routers/admin.py:68
 msgid "will continue to"
 msgstr "会继续"
 
@@ -113,23 +113,42 @@ msgstr ""
 "<b>发送用户</b>\n"
 "id: {user_id}"
 
-#: src/routers/forward.py:134
+#: src/routers/forward.py:106
 msgid "You cannot forward messages to yourself."
 msgstr "您不能将信息转发给自己。"
 
-#: src/routers/forward.py:143
+#: src/routers/forward.py:115
 msgid "Failed to create topic."
 msgstr "创建主题失败。"
 
-#: src/routers/forward.py:150
+#: src/routers/forward.py:123
+#, python-brace-format
+msgid ""
+"<b>User Info</b>\n"
+"\n"
+"<b>User ID:</b> <a href='tg://user?id={user_id}'>{user_id}</a>\n"
+"<b>Username:</b> <code>{username}</code>\n"
+"<b>Name:</b> <i>{full_name}</i>"
+msgstr ""
+"<b>用户信息</b>\n"
+"\n"
+"<b>用户 ID：</b> <a href='tg://user?id={user_id}'>{user_id}</a>\n"
+"<b>用户名：</b> <code>{username}</code>\n"
+"<b>名称：</b> <i>{full_name}</i>"
+
+#: src/routers/forward.py:129
+msgid "Not Set"
+msgstr "未设置"
+
+#: src/routers/forward.py:138
 msgid "You can only send a maximum of 2 messages before the admin replies to you."
 msgstr "在管理员回复您之前，您最多只能发送 2 条信息。"
 
-#: src/routers/forward.py:167
+#: src/routers/forward.py:155
 msgid "This message type does not support forwarding."
 msgstr "不支持转发此消息类型。"
 
-#: src/routers/forward.py:191
+#: src/routers/forward.py:179
 msgid ""
 "Great! <b>That 🕊 reaction means your message has been successfully forwarded to "
 "my admin.</b> So you can clearly know exactly if I'm working properly.\n"
@@ -143,10 +162,26 @@ msgstr ""
 "\n"
 "<blockquote>此提示只会展示一次。</blockquote>"
 
-#: src/routers/topic.py:31
+#: src/routers/setup.py:43
+msgid "Failed to setup, please check this in logs or try again later."
+msgstr "初始化设置失败，请查看日志或稍后再试。"
+
+#: src/routers/setup.py:51
+msgid ""
+"Setup completed!\n"
+"<code>/chii_setup</code> has been disabled."
+msgstr ""
+"设置已完成！\n"
+"<code>/chii_setup</code> 命令已被禁用。"
+
+#: src/routers/topic.py:25
+msgid "Permission denied"
+msgstr "操作权限不足"
+
+#: src/routers/topic.py:28
 msgid "Deleting topic..."
 msgstr "正在删除主题…"
 
-#: src/routers/topic.py:33
+#: src/routers/topic.py:30
 msgid "Failed to delete topic"
 msgstr "删除主题失败"
