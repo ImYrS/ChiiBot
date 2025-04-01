@@ -1,0 +1,152 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-01 11:56+0800\n"
+"PO-Revision-Date: 2025-04-01 11:56+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/errors.py:12
+#, python-brace-format
+msgid ""
+"<b>Error</b>\n"
+"\n"
+"<blockquote>{msg}</blockquote>"
+msgstr ""
+"<b>错误</b>\n"
+"\n"
+"<blockquote>{msg}</blockquote>"
+
+#: src/errors.py:20
+msgid ""
+"This Topic is not associated with any guest.\n"
+"We recommend to close/delete this topic."
+msgstr ""
+"此主题未关联到具体用户。\n"
+"我们建议关闭或删除此主题。"
+
+#: src/errors.py:29
+msgid "❌ DELETE Topic"
+msgstr "❌ 删除主题"
+
+#: src/routers/admin.py:32
+msgid "This command is only available in topics."
+msgstr "此命令仅在话题中可用。"
+
+#: src/routers/admin.py:48
+#, python-brace-format
+msgid "This user is already {}."
+msgstr "此用户已经处于{}状态。"
+
+#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+msgid "blocked"
+msgstr "封禁"
+
+#: src/routers/admin.py:49 src/routers/admin.py:61 src/routers/admin.py:69
+msgid "unblocked"
+msgstr "解封"
+
+#: src/routers/admin.py:60
+#, python-brace-format
+msgid "User #u{user_id} is {status} now."
+msgstr "用户 #u{user_id} 现在已{status}。"
+
+#: src/routers/admin.py:68
+#, python-brace-format
+msgid ""
+"You have been {} by admin.\n"
+"Your messages {} be processed by me."
+msgstr ""
+"你已经被管理员{}。\n"
+"你的消息{}被我转发处理。"
+
+#: src/routers/admin.py:70
+msgid "will not"
+msgstr "将不会"
+
+#: src/routers/admin.py:70
+msgid "will continue to"
+msgstr "会继续"
+
+#: src/routers/basic.py:20
+#, python-brace-format
+msgid ""
+"Hi, I'm <b>{bot_name}</b>.\n"
+"\n"
+"Commands:\n"
+"/id - Get chat and user ID"
+msgstr ""
+"嗨，我是<b>{bot_name}</b>。\n"
+"\n"
+"可用命令：\n"
+"/id - 获取聊天记录和用户 ID"
+
+#: src/routers/basic.py:21
+msgid "ChiiBot"
+msgstr "七宝"
+
+#: src/routers/basic.py:32
+#, python-brace-format
+msgid ""
+"<b>Current Chat</b>\n"
+"id: {chat_id}\n"
+"\n"
+"<b>From User</b>\n"
+"id: {user_id}"
+msgstr ""
+"<b>当前对话</b>\n"
+"id: {chat_id}\n"
+"\n"
+"<b>发送用户</b>\n"
+"id: {user_id}"
+
+#: src/routers/forward.py:134
+msgid "You cannot forward messages to yourself."
+msgstr "您不能将信息转发给自己。"
+
+#: src/routers/forward.py:143
+msgid "Failed to create topic."
+msgstr "创建主题失败。"
+
+#: src/routers/forward.py:150
+msgid "You can only send a maximum of 2 messages before the admin replies to you."
+msgstr "在管理员回复您之前，您最多只能发送 2 条信息。"
+
+#: src/routers/forward.py:167
+msgid "This message type does not support forwarding."
+msgstr "不支持转发此消息类型。"
+
+#: src/routers/forward.py:191
+msgid ""
+"Great! <b>That 🕊 reaction means your message has been successfully forwarded to "
+"my admin.</b> So you can clearly know exactly if I'm working properly.\n"
+"Wishing you a wonderful day!\n"
+"\n"
+"<blockquote>This notice won't be shown again.</blockquote>"
+msgstr ""
+"太棒了！<b>这个 🕊 反应意味着你的消息已经成功转发给我的管理员。</b>你可以通过它来"
+"清晰的知道我是否在正常工作。\n"
+"祝你有个美好的一天！\n"
+"\n"
+"<blockquote>此提示只会展示一次。</blockquote>"
+
+#: src/routers/topic.py:31
+msgid "Deleting topic..."
+msgstr "正在删除主题…"
+
+#: src/routers/topic.py:33
+msgid "Failed to delete topic"
+msgstr "删除主题失败"

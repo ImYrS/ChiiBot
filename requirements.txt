@@ -1,0 +1,6 @@
+aiogram~=3.19.0
+uvloop~=0.21.0
+babel~=2.17.0
+tortoise-orm~=0.24.2
+python-dotenv~=1.1.0
+aiohttp_socks~=0.10.1
