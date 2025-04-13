@@ -4,7 +4,7 @@
 
 使用此链接进入并**使用 GitHub 登录**：[立即注册 Claw Cloud](https://console.run.claw.cloud/signin?link=MJV2T1RZPBM9)，无需信用卡，无需服务器。
 
-> [!NOTE]
+> [!INFO]
 > ✨如果你的 GitHub 账号注册了超过 180 天，Claw Cloud 会每月赠送你 $5 美元的使用额度，足以宽裕的使用本项目。
 
 ### 切换地区
@@ -21,11 +21,15 @@
 3. 填写创建参数
   1. Application Name 应用名称：自定义，命名规则和域名要求相同，推荐使用小写英文。
   2. Image 镜像：选择 Public 并填写 `imyrs/chii-bot:latest`
-  3. Usage 用量：其实就是配置，建议参考我的配置：选择 Fixed，Replicas: 1, CPU: 0.5, Memory: 1G。这个配置下价格每月刚好不会超过 Claw 送的 $5 用量。
+  3. Usage 用量：其实就是配置，建议参考我的配置：选择 Fixed，Replicas: 1, CPU: 0.5, Memory: 1G。
   4. Network 网络：七宝没有对外暴露接口，所以忽略即可
   5. Advanced Configuration 进阶配置：只改 Environment Variables 和 Local Storage。
     - Environment Variables: 添加 `CORE_BOT_TOKEN={YOUR_BOT_TOKEN}`，替换你自己的 Bot token 进去。
     - Local Storage: Capacity 为 1，Mount Path 为 `/app/data` 用于保存数据库。
+
+> [!TIP]
+> 如果你遵循我上方建议的选项进行配置，每个月此容器大约消耗 $4.5，Claw 每月送 $5，刚好可以覆盖开销。
+
 
 此时你的配置应如图所示：
 <img width="1203" alt="image" src="https://github.com/user-attachments/assets/8d3a3c6e-057c-493e-ae63-5e78f3b2834a" />
