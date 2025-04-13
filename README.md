@@ -40,7 +40,7 @@
 #### Claw 容器部署
 
 > [!NOTE]
-> ✨如果你的 GitHub 账号注册了超过 180 天，你可以**免费使用 Claw 的容器部署七宝，无需服务器。**  
+> ✨如果你的 GitHub 账号注册了超过 180 天，你可以**免费使用 Claw 的容器部署七宝，无需信用卡，无需服务器。**  
 > 使用此链接进入并使用 GitHub 登录：[注册 Claw Cloud 并获得 5 美元/月的免费额度](https://console.run.claw.cloud/signin?link=MJV2T1RZPBM9)
 
 **[Claw Cloud 1 分钟部署教程](https://github.com/ImYrS/ChiiBot/blob/main/docs/deploy_on_claw.md)**

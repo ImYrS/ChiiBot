@@ -2,10 +2,10 @@
 
 ### 注册
 
-使用此链接进入并**使用 GitHub 登录**：[立即注册 Claw Cloud](https://console.run.claw.cloud/signin?link=MJV2T1RZPBM9)
+使用此链接进入并**使用 GitHub 登录**：[立即注册 Claw Cloud](https://console.run.claw.cloud/signin?link=MJV2T1RZPBM9)，无需信用卡，无需服务器。
 
 > [!NOTE]
-> ✨如果你的 GitHub 账号注册了超过 180 天，Claw Cloud 会每月赠送你 $5 美元的使用额度，足以宽裕的使用本项目。 
+> ✨如果你的 GitHub 账号注册了超过 180 天，Claw Cloud 会每月赠送你 $5 美元的使用额度，足以宽裕的使用本项目。
 
 ### 切换地区
 
